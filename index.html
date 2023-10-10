@@ -4,55 +4,116 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Rafael Portela">
-    <meta name="description" content="Portfólio do desenvolvedor full stack Rafael Portela da Silva">
-    <meta name="keywords" content="portfolio, html, front-end, desenvolvimento, css, javascript">
+    <meta name="author" content="Rafael Portela" />
+    <meta
+      name="description"
+      content="Portfólio do desenvolvedor full stack Rafael Portela da Silva"
+    />
+    <meta
+      name="keywords"
+      content="portfolio, html, front-end, desenvolvimento, css, javascript"
+    />
     <title>Rafael Portela</title>
-    <link rel="icon" href="./icon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
-
+    <link rel="icon" href="./icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
-    <nav data-menu="suave">
-       <p><a href="#home">&lsaquo;RP/&rsaquo;</a></p>
-       <button data-menu="button" aria-controls="menu"></button>
-      <ul data-menu="list" id="menu">
-        <img src="assets/translate.png" alt="" srcset="" width="30" height="30" style="margin-top: 6px; margin-right: 10px;">
-        <select data-i18n-switcher class="locale-switcher">
-           
-            <option class="opitons-language" value="en">English</option>
-            <option class="opitons-language" value="pt">Português</option>
-            <option class="opitons-language" value="es">Spanish</option>
-        </select>
-        <a href="#home">
-        <li data-i18n-key="home-li"></li>
-        </a>
-        <a href="#sobre">
-          <li data-i18n-key="about"></li>
-        </a>
-        <a href="#experiencia">
-        <li data-i18n-key="experience"></li>
-        </a>
-        <a href="#projetos">
-        <li data-i18n-key="project"></li>
-        </a>
-      </ul>
-    </nav>
-  </header>
+      <nav class="navbar navbar-expand-lg bg-body-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#home">&lsaquo;RP/&rsaquo;</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre" data-i18n-key="about"></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#experiencia"
+                  data-i18n-key="experience"
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#projetos"
+                  data-i18n-key="project"
+                ></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  data-i18n-key="language"
+                >
+                  🗺
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="languageDropdown"
+                  data-i18n-switcher
+                >
+                  <li>
+                    <a class="dropdown-item" href="#" data-value="en"
+                      >English</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#" data-value="pt"
+                      >Português</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#" data-value="es"
+                      >Spanish</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
     <main>
-      <section class="principal" id="home" >
+      <section class="principal" id="home">
         <div class="principal__left">
           <h1 data-i18n-key="I'm-Title"></h1>
-            <span class="principal__sentence"></span>
-            <span class="principal__input-cursor"></span>
+          <span class="principal__sentence"></span>
+          <span class="principal__input-cursor"></span>
           <h1 data-i18n-key="Developer-Title"></h1>
           <div class="principal__botao">
-            <a href="https://www.linkedin.com/in/rafael-portela-poportss/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/rafael-portela-poportss/"
+              target="_blank"
+            >
               <div class="principal__botao-linkedin">
                 <img src="./assets/linkedin.png" alt="" />
                 <p>LinkedIn</p>
@@ -66,31 +127,41 @@
             </a>
           </div>
         </div>
+
         <div class="principal__right">
-          <img style="border-radius: 10px ;" src="./assets/81190957.png" alt="Ilustração representando uma desenvolvedora sentada na cadeira mexendo no notebook com ambiente em volta." data-tilt>
+          <img
+            style="border-radius: 10px"
+            src="./assets/81190957.png"
+            alt="Ilustração representando uma desenvolvedora sentada na cadeira mexendo no notebook com ambiente em volta."
+            data-tilt
+          />
         </div>
-        
-        <div class="scroll" data-menu="suave"><a href="#sobre" > <p> scroll down </p> <img src="./assets/scroll.png" alt="Setinha indicando para rolar a tela para baixo"></a></div>
+
+        <div class="scroll" data-menu="suave">
+          <a href="#sobre">
+            <p>scroll down</p>
+            <img
+              src="./assets/scroll.png"
+              alt="Setinha indicando para rolar a tela para baixo"
+          /></a>
+        </div>
       </section>
       <section class="sobre-mim" id="sobre" data-anime="js-scroll">
         <div class="sobre-mim__foto">
           <img src="./assets/eu.png" alt="Uma selfie da Rafael Portela" />
         </div>
-        <div class="sobre-mim__descricao" >
+        <div class="sobre-mim__descricao">
           <h1 data-i18n-key="About-me"></h1>
           <h2 data-i18n-key="Country"></h2>
-          <p data-i18n-key="About-me-Description">
-           
-          </p>
+          <p data-i18n-key="About-me-Description"></p>
           <div class="sobre-mim__descricao-buttons">
-            <a href="https://www.canva.com/design/DAFFA8TSYI8/view" target="_blank">
+            <a href="./assets/curriculo.pdf" target="_blank">
               <div class="sobre-mim__descricao-buttons-curriculo">
                 <img src="./assets/download-da-nuvem.png" alt="" />
                 <p data-i18n-key="Resume"></p>
               </div>
             </a>
           </div>
-          
         </div>
       </section>
       <section class="experiencia" id="experiencia" data-anime="js-scroll">
@@ -101,39 +172,39 @@
               <li>KRON DIGITAL</li>
               <li>ELLEVO</li>
               <li>CIA BEAL</li>
-
             </ul>
           </section>
           <div class="experiencia__descricao" data-tab="content">
             <section data-anime="show-right">
-            <h2 data-i18n-key="Developer-Title-1">Estagiário Desenvolvedor Full Stack</h2>
-            <span data-i18n-key="Date-2" >Fev 2022 - Ago 2022</span>
-            <p class="experiencia__descricao-local" data-i18n-key="experience-title-2">Kron Digital - Projeto AG SEBRAE</p>
-            <p data-i18n-key="experience-description-2">
-              O projeto é um software para o SEBRAE que necessitavam de um software de autogestão, 
-              sendo desenvolvido totalmente pensando na mais rápida eficiência para o controle da empresa. 
-              Era responsável pela parte de suporte do software, assim resolvendo bugs tanto no backend como o frontend. 
-              Utiliza Scrum como metodologia ágil, juntamente com Azure Dev Ops e tecnologias como Angular, Java e SQL SERVER. 
-            </p>
+              <h2 data-i18n-key="Developer-Title-1"></h2>
+              <span data-i18n-key="Date-2"></span>
+              <p
+                class="experiencia__descricao-local"
+                data-i18n-key="experience-title-2"
+              ></p>
+              <p data-i18n-key="experience-description-2"></p>
             </section>
 
             <section data-anime="show-right">
               <h2 data-i18n-key="Developer-Title"></h2>
               <span data-i18n-key="Date"></span>
-              <p class="experiencia__descricao-local" data-i18n-key="experience-title"></p>
-              <p data-i18n-key="experience-description">
-              </p>
-              </section>
+              <p
+                class="experiencia__descricao-local"
+                data-i18n-key="experience-title"
+              ></p>
+              <p data-i18n-key="experience-description"></p>
+            </section>
 
             <section data-anime="show-right">
               <h2 data-i18n-key="Developer-Title-2"></h2>
               <span data-i18n-key="Date-3"></span>
-              <p class="experiencia__descricao-local" data-i18n-key="experience-title-3"></p>
-              <p data-i18n-key="experience-description-3">
-              </p>
-              </section>
-        </div>
-        </section>
+              <p
+                class="experiencia__descricao-local"
+                data-i18n-key="experience-title-3"
+              ></p>
+              <p data-i18n-key="experience-description-3"></p>
+            </section>
+          </div>
         </div>
       </section>
       <section class="projetos" id="projetos" data-anime="js-scroll">
@@ -141,11 +212,10 @@
         <div class="projetos__wrapper">
           <section class="projetos__card">
             <a href="https://todolistpoportss.netlify.app/" target="_blank">
-            <img src="./assets/To-Do List.png" alt="" class="projeto-img"/>
-          </a>
+              <img src="./assets/To-Do List.png" alt="" class="projeto-img" />
+            </a>
             <h2 data-i18n-key="title-todo"></h2>
-            <p data-i18n-key="lead-todo">
-            </p>
+            <p data-i18n-key="lead-todo"></p>
             <span data-i18n-key="description-technology"> </span>
             <a href="https://todolistpoportss.netlify.app/" target="_blank">
               <div class="projetos__card-button">
@@ -155,29 +225,35 @@
           </section>
           <section class="projetos__card">
             <a href="https://netflixpoportss.netlify.app/" target="_blank">
-            <img src="./assets/NETFLIX CLONE.png" alt="Clone Netflix" class="projeto-img"/>
+              <img
+                src="./assets/NETFLIX CLONE.png"
+                alt="Clone Netflix"
+                class="projeto-img"
+              />
             </a>
             <h2 data-i18n-key="title-netflix"></h2>
             <p data-i18n-key="lead-netflix"></p>
             <span data-i18n-key="technology-used"></span>
-            <a href="https://netflixpoportss.netlify.app/" target="_blank"
-              >
+            <a href="https://netflixpoportss.netlify.app/" target="_blank">
               <div class="projetos__card-button">
-              <span data-i18n-key="view"></span>
-              
-
-            </div>
+                <span data-i18n-key="view"></span>
+              </div>
             </a>
           </section>
           <section class="projetos__card">
-            <a href="https://curious-valkyrie-6c134c.netlify.app/" target="_blank">
-            <img src="./assets/multistep-.png" alt="" class="projeto-img"/>
+            <a
+              href="https://curious-valkyrie-6c134c.netlify.app/"
+              target="_blank"
+            >
+              <img src="./assets/multistep-.png" alt="" class="projeto-img" />
             </a>
             <h2 data-i18n-key="title-multi-form"></h2>
-            <p data-i18n-key="lead-multi-form">
-            </p>
+            <p data-i18n-key="lead-multi-form"></p>
             <span data-i18n-key="technology-used"></span>
-            <a href="https://curious-valkyrie-6c134c.netlify.app/" target="_blank">
+            <a
+              href="https://curious-valkyrie-6c134c.netlify.app/"
+              target="_blank"
+            >
               <div class="projetos__card-button">
                 <span data-i18n-key="view"></span>
               </div>
@@ -185,49 +261,55 @@
           </section>
           <section class="projetos__card">
             <a href="https://meek-dusk-5c7091.netlify.app/" target="_blank">
-            <img src="./assets/calendar.png" alt="Imagem logo de folhas de uma planta representando meu projeto número 4" class="projeto-img"/>
-          </a>
+              <img
+                src="./assets/calendar.png"
+                alt="Imagem logo de folhas de uma planta representando meu projeto número 4"
+                class="projeto-img"
+              />
+            </a>
             <h2 data-i18n-key="title-calendar"></h2>
-            <p data-i18n-key="lead-calendar">
-            </p>
+            <p data-i18n-key="lead-calendar"></p>
             <span data-i18n-key="technology-used-1"></span>
             <a href="https://meek-dusk-5c7091.netlify.app/" target="_blank">
               <div class="projetos__card-button">
-                
                 <span data-i18n-key="view"></span>
               </div>
             </a>
-   
           </section>
           <section class="projetos__card">
             <a href="https://rad-bunny-9cb8f1.netlify.app/" target="_blank">
-            <img src="./assets/Dino game.png" alt="Imagem logo de folhas de uma planta representando meu projeto número 4" class="projeto-img"/>
-          </a>
+              <img
+                src="./assets/Dino game.png"
+                alt="Imagem logo de folhas de uma planta representando meu projeto número 4"
+                class="projeto-img"
+              />
+            </a>
             <h2 data-i18n-key="title-dino"></h2>
             <p data-i18n-key="lead-dino"></p>
             <a href="https://rad-bunny-9cb8f1.netlify.app/" target="_blank">
-            <span data-i18n-key="technology-used"></span>
+              <span data-i18n-key="technology-used"></span>
 
               <div class="projetos__card-button">
-               <span data-i18n-key="view"></span>
+                <span data-i18n-key="view"></span>
               </div>
             </a>
-   
           </section>
           <section class="projetos__card">
             <a href="https://meek-dusk-5c7091.netlify.app/" target="_blank">
-              <img src="./assets/Lockscreen Ui _ Coderider.png" alt="Imagem logo de folhas de uma planta representando meu projeto número 4" class="projeto-img"/>
+              <img
+                src="./assets/Lockscreen Ui _ Coderider.png"
+                alt="Imagem logo de folhas de uma planta representando meu projeto número 4"
+                class="projeto-img"
+              />
             </a>
             <h2 data-i18n-key="title-lock"></h2>
             <p data-i18n-key="lead-calendar"></p>
             <span data-i18n-key="technology-used"></span>
-         
             <a href="https://meek-dusk-5c7091.netlify.app/" target="_blank">
               <div class="projetos__card-button">
-              <span data-i18n-key="view"></span>
+                <span data-i18n-key="view"></span>
               </div>
             </a>
-   
           </section>
         </div>
       </section>
@@ -236,5 +318,10 @@
     <script src="./js/script.js" type="module"></script>
     <script src="./js/translate.js"></script>
     <script src="./js/modules/vanilla-tilt.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

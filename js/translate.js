@@ -30,13 +30,24 @@ function browserLocales(languageCodeOnly = false) {
 // load the locale's translations and update
 // the page
 function bindLocaleSwitcher(initialValue) {
-  const switcher = document.querySelector("[data-i18n-switcher]");
-  switcher.value = initialValue;
-  switcher.onchange = (e) => {
-    // Set the locale to the selected option[value]
-    setLocale(e.target.value);
-  };
+  const switcherLinks = document.querySelectorAll("[data-i18n-switcher] a");
+
+  switcherLinks.forEach((link) => {
+    link.addEventListener("click", (e) => {
+      e.preventDefault();
+      // Set the locale to the selected data-value attribute
+      setLocale(link.getAttribute("data-value"));
+    });
+  });
+
+  // Set the initial value based on the current locale
+  switcherLinks.forEach((link) => {
+    if (link.getAttribute("data-value") === initialValue) {
+      link.classList.add("active"); // Optionally mark the active language
+    }
+  });
 }
+
 /**
  * Retrieve user-preferred locales from the browser
  *

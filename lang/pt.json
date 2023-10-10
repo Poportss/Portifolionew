@@ -9,7 +9,7 @@
   "I'm-Title": "Oi, sou",
   "About-me": "Sobre mim",
   "Country": "Curitiba, Paraná",
-  "About-me-Description": "Sou um desenvolvedor full Stack dedicado  em uma empresa líder brasileira de desenvolvimento. Tenho várias certificações em desenvolvimento de software e forte conhecimento em sistemas embarcados.",
+  "About-me-Description": "Programador Full Stack dedicado que promove a inovação através de uma experiência versátil. Aproveitando um conjunto robusto de habilidades em JavaScript, Python, .Net e muito mais, eu crio soluções web e móveis perfeitas. Com uma abordagem proactiva, optimizei processos de análise de dados, aumentando a eficiência e a produtividade num ambiente dinâmico centrado no utilizador. Ansioso por abraçar novos desafios e linguagens, estou empenhado em impulsionar o sucesso da equipa e promover o crescimento contínuo.",
   "Resume": "Currículo",
   "Date": "Agosto 2022 - Atualmente",
   "Date-2": "Fevereiro 2022 - Agosto 2022",
@@ -17,9 +17,9 @@
   "experience-title": "Ellevo Soluções em TI - Projeto Next",
   "experience-title-2": "Kron Digital - Projeto AG SEBRAE",
   "experience-title-3": "Cia Beal de Alimentos - Suporte de Infraestructura",
-  "experience-description": " O projeto é uma plataforma para empresas que necessitam de um serviço de help desk, sendo desenvolvido totalmente pensando na mais rápida eficiência. Sou responsável pela parte de inovação da plataforma, assim desenvolvendo tanto o backend como o frontend. Utiliza Scrum como metodologia ágil, juntamente com Azure Dev Ops e tecnologias como Angular, C# e Mongo DB. ",
-  "experience-description-2": "Responsável pelo suporte de atendimento de chamados da parte de infraestrutura, bem como responsável pela manutenção de data center, computadores da empresa, auxílio na virtualização de servidores e auxílio de na rede de dados da empresa.",
-  "experience-description-3": "Responsible for answering support calls from the infrastructure part, as well as responsible for data center maintenance, company computers, help in server virtualization and help in the company's data network.",
+  "experience-description": "Contribui para uma equipe de desenvolvedores dinâmica, desenvolvendo um software robusto de atendimento ao cliente utilizado por mais de 300 mil usuários. \n\n🏆 Conquistas notáveis: \n\n- Resolvi bugs complexos, aprimorando a confiabilidade do software.\n- Fui pioneiro em inovações no desenvolvimento de software relacional.\n- Projetei e implementei layouts de interface do usuário precisos.\n- Gerenciei com proficiência a manipulação de bancos de dados.\n\n🖥 Especialização em:\n\n- Typescript\n- Integração de API\n- MongoDB\n- C#\n- Angular\n- Bootstrap\n- .NET",
+  "experience-description-2": "Desempenhei um papel fundamental em uma equipe de desenvolvedores dinâmica, liderando a criação de software de ponta para a indústria automobilística do Brasil, atendendo a uma vasta base de usuários de mais de 200 mil.\n\n🏆 Principais contribuições:\n\n- Impulsionou a evolução frontend e backend por meio de desenvolvimento de baixa complexidade.\n- Resolvi rapidamente bugs intrincados, otimizando o desempenho do software.\n- Traduzi visões em realidade, criando telas meticulosamente projetadas.\n\n🖥 Especialização em:\n\n- JavaScript\n- Integração de API\n- SQL\n- Java\n- Angular\n- Bootstrap\n- Spring Boot",
+  "experience-description-3": "Contribuiu colaborativamente para uma equipe de TI dinâmica, envolvida ativamente na instalação, manutenção e otimização de redes corporativas e equipamentos de informática. \n\n🏆 Conquistas notáveis:\n\n- Resolveu desafios técnicos e garantiu operações de rede sem problemas para processos empresariais eficientes.\n- Auxiliou no desenvolvimento e implementação de soluções de TI inovadoras, ampliando a funcionalidade do sistema.\n- Desempenhou um papel fundamental na solução de problemas e na abordagem de questões técnicas, fornecendo suporte excepcional ao usuário.\n- Gerenciou e manteve bancos de dados com proficiência, contribuindo para a integridade e acessibilidade de dados.\n\n🖥 Especialização em:\n\n- Gerenciamento de Redes\n- Manutenção de Hardware\n- Solução de Problemas\n- Gerenciamento de Banco de Dados",
   "title-todo": "Lista de tarefas",
   "title-netflix": "Clone Netflix",
   "title-multi-form": "Formulário multi etapas",
@@ -35,5 +35,6 @@
   "description-technology": "Tecnologia usada no projeto: Angular.",
   "view": "Ver Projeto",
   "technology-used": "Tecnologias usadas no projeto: HTML, CSS e Javascript.",
-  "technology-used-1": "Tecnologias usadas no projeto: HTML e CSS."
+  "technology-used-1": "Tecnologias usadas no projeto: HTML e CSS.",
+  "language": "Escolha seu Idioma"
 }

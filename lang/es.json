@@ -9,7 +9,7 @@
   "I'm-Title": "Hola, soy",
   "About-me": "Sobre mí",
   "Country": "Curitiba, Paraná",
-  "About-me-Description": "Soy un desarrollador full stack dedicado en una empresa de desarrollo líder en Brasil. Tengo varias certificaciones en desarrollo de software y fuertes conocimientos en sistemas embebidos.",
+  "About-me-Description": "Desarrollador Full Stack dedicado que impulsa la innovación a través de una experiencia versátil. Aprovechando un sólido conjunto de habilidades en JavaScript, Python y más, creo soluciones web y móviles sin fisuras. Con un enfoque proactivo, he optimizado procesos de análisis de datos, impulsando la eficiencia y la productividad en un entorno dinámico centrado en el usuario. Deseoso de nuevos retos y lenguajes, estoy comprometido a impulsar el éxito del equipo y fomentar el crecimiento continuo.",
   "Resume": "Curriculum ",
   "Date": "Agosto 2022 - Actualidad",
   "Date-2": "Febrero 2022 - Agosto 2022",
@@ -17,9 +17,9 @@
   "experience-title": "Ellevo IT Solutions - Proyecto Next",
   "experience-title-2": "Kron Digital - Proyecto AG SEBRAE",
   "experience-title-3": "Cia Beal de Alimentos - Apoyo a la infraestructura",
-  "experience-description": "El proyecto es una plataforma para empresas que necesitan un servicio de help desk, siendo desarrollado pensando en la mayor eficiencia. Soy responsable de la parte de innovación de la plataforma, desarrollando así tanto el backend como el frontend. Utiliza Scrum como metodología ágil, junto con Azure Dev Ops y tecnologías como Angular, C# y Mongo DB. ",
-  "experience-description-2": "El proyecto es un software para SEBRAE que necesitaba un software de autogestión, siendo desarrollado totalmente pensando en la mayor eficiencia para el control de la empresa. Fui responsable de la parte de soporte del software, solucionando así bugs tanto en el backend como en el frontend. Utilizando Scrum como metodología ágil, junto con Azure Dev Ops y tecnologías como Angular, Java y SQL SERVER.",
-  "experience-description-3": "Responsable de responder a las llamadas de soporte de la parte de infraestructura, así como responsable del mantenimiento del centro de datos, los ordenadores de la empresa, ayuda en la virtualización de servidores y ayuda en la red de datos de la empresa.",
+  "experience-description": "Contribuí a un equipo de desarrolladores dinámico, creando un sólido software de atención al cliente utilizado por más de 300K usuarios. \n\n🏆 Logros destacados: \n\n- Solucioné problemas complejos, mejorando la confiabilidad del software.\n- Fui pionero en innovaciones en el desarrollo de software relacional.\n- Diseñé e implementé diseños de interfaz de usuario precisos.\n- Gestioné de manera eficiente la manipulación de bases de datos.\n\n🖥 Especialización en:\n\n- Typescript\n- Integración de API\n- MongoDB\n- C#\n- Angular\n- Bootstrap\n- .NET",
+  "experience-description-2": "Desempeñé un papel fundamental en un equipo de desarrolladores dinámico, liderando la creación de software de vanguardia para la industria de gestión automotriz de Brasil, sirviendo a una amplia base de usuarios de más de 200K.\n\n🏆 Contribuciones clave:\n\n- Impulsé la evolución frontend y backend a través del desarrollo de baja complejidad.\n- Resolví rápidamente problemas intrincados, optimizando el rendimiento del software.\n- Traduje visiones en realidad mediante la creación de pantallas meticulosamente diseñadas.\n\n🖥 Especialización en:\n\n- JavaScript\n- Integración de API\n- SQL\n- Java\n- Angular\n- Bootstrap\n- Spring Boot",
+  "experience-description-3": "Contribuí colaborativamente a un equipo de TI dinámico, participando activamente en la instalación, mantenimiento y optimización de redes corporativas y equipos informáticos. \n\n🏆 Logros destacados: \n\n- Resolví desafíos técnicos y garantizé operaciones de red sin problemas para procesos empresariales eficientes.\n- Colaboré en el desarrollo e implementación de soluciones de TI innovadoras, ampliando la funcionalidad del sistema.\n- Desempeñé un papel fundamental en la resolución de problemas y en la atención de problemas técnicos, brindando un excepcional soporte al usuario.\n- Gestioné y mantuve bases de datos con eficiencia, contribuyendo a la integridad y accesibilidad de datos.\n\n🖥 Especialización en:\n\n- Gestión de Redes\n- Mantenimiento de Hardware\n- Resolución de Problemas\n- Gestión de Bases de Datos",
   "title-todo": "Lista de tareas pendientes",
   "title-netflix": "Clon de Netflix",
   "title-multi-form": "Formulario multipaso",
@@ -35,5 +35,6 @@
   "description-technology": "Tecnología utilizada en el proyecto: Angular.",
   "view": "Ver",
   "technology-used": "Technologies used in the project: HTML, CSS and Javascript.HTML, CSS y Javascript.",
-  "technology-used-1": "Tecnologías utilizadas en el proyecto: HTML, CSS."
+  "technology-used-1": "Tecnologías utilizadas en el proyecto: HTML, CSS.",
+  "language": "Seleccione su idioma"
 }

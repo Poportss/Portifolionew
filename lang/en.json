@@ -9,7 +9,7 @@
   "I'm-Title": "Hi, I'm ",
   "About-me": "About me",
   "Country": "Curitiba, Paraná",
-  "About-me-Description": "I’m a dedicated full stack developer at a leading Brazilian development company. I have several certifications in software development and strong knowledge in embedded systems.",
+  "About-me-Description": "Dedicated Full Stack Programmer who promotes innovation through versatile experience. Leveraging a robust set of skills in JavaScript, Python, .Net and more, I create perfect web and mobile solutions. With a proactive approach, I have optimized data analysis processes, increasing efficiency and productivity in a dynamic user-centered environment. Eager to embrace new challenges and languages, I'm committed to driving team success and promoting continuous growth.",
   "Resume": "Resume",
   "Date": "August 2022 - Present",
   "Date-2": "February 2022 - August 2022",
@@ -17,9 +17,9 @@
   "experience-title": "Ellevo IT Solutions - Project Next",
   "experience-title-2": "Kron Digital - Project AG SEBRAE",
   "experience-title-3": "Cia Beal de Alimentos - Infrastructure Support",
-  "experience-description": "The project is a platform for companies that need a help desk service, being developed with the fastest efficiency in mind. I am responsible for the innovation part of the platform, thus developing both the backend and the frontend. Uses Scrum as agile methodology, along with Azure Dev Ops and technologies like Angular, C# and Mongo DB. ",
-  "experience-description-2": "The project is a software for SEBRAE that needed a self-management software, being developed totally thinking of the fastest efficiency for the control of the company. I was responsible for the support part of the software, thus solving bugs both in the backend and the frontend. Uses Scrum as agile methodology, along with Azure Dev Ops and technologies like Angular, Java and SQL SERVER.",
-  "experience-description-3": "Responsible for answering support calls from the infrastructure part, as well as responsible for data center maintenance, company computers, help in server virtualization and help in the company's data network.",
+  "experience-description": "Contributed to a dynamic developer team, crafting a robust customer service software utilized by 300K+ users. \n\n🏆 Notable accomplishments: \n\n- Remedied complex bugs, enhancing software reliability.\n- Pioneered innovations in relational software development.\n- Designed and implemented precise UI layouts.\n- Proficiently managed database manipulation.\n\n🖥 Expertise in:\n\n- Typescript\n- API Integration\n- MongoDB\n- C#\n- Angular\n- Bootstrap\n- .NET",
+  "experience-description-2": "Played an integral role in a dynamic developer team, spearheading the creation of cutting-edge software for Brazil's auto management industry, serving a vast user base of over 200K.\n\n🏆 Key Contributions:\n\n- Drove frontend and backend evolution through low-complexity development.\n- Swiftly resolved intricate bugs, optimizing software performance.\n- Translated visions into reality by crafting meticulously designed screens.\n\n🖥 Expertise in:\n\n- JavaScript\n- API Integration\n- SQL\n- Java\n- Angular\n- Bootstrap\n- Spring Boot",
+  "experience-description-3": "Contributed collaboratively to a dynamic IT team, actively involved in the installation, maintenance, and optimization of corporate networks and computer equipment. \n\n🏆 Notable accomplishments:\n\n- Resolved technical challenges and ensured smooth network operations for efficient business processes.\n- Assisted in the development and implementation of innovative IT solutions, amplifying system functionality.\n- Played an integral role in troubleshooting and addressing technical issues, providing exceptional user support.\n- Proficiently managed and maintained databases, contributing to data integrity and accessibility.\n\n🖥 Expertise in:\n\n- Network Management\n- Hardware Maintenance\n- Troubleshooting\n- Database Management",
   "title-todo": "To do List",
   "title-netflix": "Clone Netflix",
   "title-multi-form": "Multi Step Form",
@@ -35,5 +35,6 @@
   "description-technology": "Technology used in the project: Angular.",
   "view": "View",
   "technology-used": "Technologies used in the project: HTML, CSS and Javascript.",
-  "technology-used-1": "Technologies used in the project: HTML, CSS."
+  "technology-used-1": "Technologies used in the project: HTML, CSS.",
+  "language": "Choose your language"
 }

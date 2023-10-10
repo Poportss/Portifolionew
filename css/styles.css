@@ -351,18 +351,53 @@ a {
 .sobre-mim__descricao-buttons-email img {
   width: 22px;
 }
-.locale-switcher {
-  background-color: transparent;
-  border: none;
-  color: white;
-  font-size: 16px;
-  font-family: inter;
-  font-weight: bold;
-  margin-bottom: 2px;
+
+.navbar-brand {
+  color: #00bbc5;
+  font-size: 24px;
 }
-.opitons-language {
-  background-color: #1b1b1b;
-  border: none;
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 18px;
+}
+.nav-link:hover {
+  color: #00bbc5;
+  font-size: 18px;
+}
+
+/* Estilo para o link ativo na barra de navegação */
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  background-color: transparent !important; /* Define a cor de fundo como transparente quando o link está ativo */
+  color: #00bbc5 !important; /* Define a cor do texto como branco quando o link está ativo */
+}
+/* Estilos para .navbar-nav em telas menores */
+@media (max-width: 767px) {
+  .navbar-nav {
+    background-color: #121212; /* Substitua "seucordefundo" pela cor desejada */
+  }
+}
+
+.navbar-toggler-icon {
+  color: #fff;
+}
+.dropdown-menu {
+  background-color: #333;
+}
+.dropdown-item {
+  color: #fff;
+}
+.dropdown-item:hover {
+  background-color: transparent;
+  color: #00bbc5;
+}
+.dropdown-item.active {
+  background-color: transparent;
+  color: #00bbc5;
 }
 
 .sobre-mim {
