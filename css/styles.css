@@ -249,6 +249,9 @@ a {
   width: 350px;
   justify-content: space-between;
 }
+.btn-outline-secondary:hover {
+  background-color: #00bbc5 !important;
+}
 
 .principal__botao-linkedin,
 .principal__botao-github,

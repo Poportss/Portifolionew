@@ -36,5 +36,8 @@
   "view": "Ver Projeto",
   "technology-used": "Tecnologias usadas no projeto: HTML, CSS e Javascript.",
   "technology-used-1": "Tecnologias usadas no projeto: HTML e CSS.",
-  "language": "Escolha seu Idioma"
+  "language": "Escolha seu Idioma",
+  "English": "Inglês",
+  "Spanish": "Español",
+  "Portuguese": "Portugues"
 }
